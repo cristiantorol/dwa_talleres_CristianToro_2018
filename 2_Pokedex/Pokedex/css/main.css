@@ -1,49 +1,49 @@
 /* line 88, sprites/sprite_1/*.png */
 .sprite_1-sprite, .sprite_1-charmander, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
-  background-image: url('/img/sprites/sprite_1-s37a1900438.png');
+  background-image: url('../img/sprites/sprite_1-sa26cffb9ab.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-charmander {
-  background-position: 0 -1079px;
-  height: 828px;
-  width: 878px;
+  background-position: -300px 0;
+  height: 75px;
+  width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-flareon {
-  background-position: 0 -2802px;
-  height: 930px;
-  width: 858px;
+  background-position: 0 0;
+  height: 75px;
+  width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-growlithe {
-  background-position: -393px 0;
-  height: 599px;
-  width: 433px;
+  background-position: -75px 0;
+  height: 75px;
+  width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-ninetales {
-  background-position: 0 -599px;
+  background-position: 0 -75px;
   height: 480px;
   width: 510px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokebola, .imagePokebola {
-  background-position: 0 -1907px;
-  height: 895px;
-  width: 892px;
+  background-position: -225px 0;
+  height: 75px;
+  width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-rapidash {
-  background-position: 0 0;
-  height: 369px;
-  width: 393px;
+  background-position: -150px 0;
+  height: 75px;
+  width: 75px;
 }
 
 /* line 1, ../sass/_header.scss */
@@ -88,8 +88,12 @@ body.mainCont {
 ul {
   list-style: none;
 }
+/* line 20, ../sass/_general.scss */
+ul li {
+  display: inline-block;
+}
 
-/* line 22, ../sass/_general.scss */
+/* line 25, ../sass/_general.scss */
 .dataCont {
   background: #2885A5;
   width: 49%;
@@ -97,6 +101,17 @@ ul {
   display: inline-block;
   height: 297px;
   margin: 0 0 -271px 15px;
+}
+/* line 32, ../sass/_general.scss */
+.dataCont ul {
+  color: white;
+  font-size: 20px;
+  display: inline-block;
+}
+/* line 36, ../sass/_general.scss */
+.dataCont ul li {
+  margin: 10px;
+  display: inline-block;
 }
 
 /* line 1, ../sass/_footer.scss */
@@ -117,12 +132,13 @@ footer.footerCont ul {
 }
 /* line 13, ../sass/_footer.scss */
 footer.footerCont ul li {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
   border-radius: 10px;
   background: blue;
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
+  margin-bottom: -30px;
 }
 /* line 14, ../sass/_footer.scss */
 footer.footerCont ul li:hover {

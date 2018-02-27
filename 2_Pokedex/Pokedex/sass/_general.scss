@@ -16,7 +16,10 @@ body.mainCont{
 }
 
 ul{
-    list-style: none
+    list-style: none;
+    li{
+        display: inline-block;
+    }
 }
 
 .dataCont{
@@ -26,5 +29,14 @@ ul{
     display: inline-block;
     height: 297px;
     margin: 0 0 -271px 15px;
+    ul{
+        color:white;
+        font-size: 20px;
+        display: inline-block;
+        li{
+            margin: 10px;
+            display: inline-block;
+        }
+    }
 
 }
