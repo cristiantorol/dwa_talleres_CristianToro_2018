@@ -5,5 +5,33 @@ footer.footerCont{
     bottom: 0;
     position: fixed;
     left:0;
-
+    ul{
+        list-style: none;
+        display: block;
+        width: 80%;
+        margin: 20px auto 0;
+        li{
+            &:hover{
+                cursor: pointer;
+                background: green;
+            }
+            height: 60px;
+            width: 60px;
+            border-radius: 10px;
+            background: blue;
+            display: inline-block;
+            margin: 10px;
+        }        
+    }
 }
+
+/*#otherLI{
+    &:hover{
+        cursor: pointer;
+        background: green;
+    }
+    color:white;
+    font-size: 40px;
+    background: brown;
+
+}*/

@@ -108,3 +108,35 @@ footer.footerCont {
   position: fixed;
   left: 0;
 }
+/* line 8, ../sass/_footer.scss */
+footer.footerCont ul {
+  list-style: none;
+  display: block;
+  width: 80%;
+  margin: 20px auto 0;
+}
+/* line 13, ../sass/_footer.scss */
+footer.footerCont ul li {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background: blue;
+  display: inline-block;
+  margin: 10px;
+}
+/* line 14, ../sass/_footer.scss */
+footer.footerCont ul li:hover {
+  cursor: pointer;
+  background: green;
+}
+
+/*#otherLI{
+    &:hover{
+        cursor: pointer;
+        background: green;
+    }
+    color:white;
+    font-size: 40px;
+    background: brown;
+
+}*/
