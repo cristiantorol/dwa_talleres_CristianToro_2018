@@ -1,57 +1,110 @@
-/*
-Error: It's not clear which file to import for '@import "sprites"'.
-       Candidates:
-         _sprites.scss
-         sprites.scss
-       Please delete or rename all but one of these files.
-        on line 1 of C:/Users/Cristian/Documents/Universidad/Noveno Semestre/DesarrolloWebAvanzado/dwa_talleres_CristianToro_2018/2_Pokedex/Pokedex/sass/main.scss
+/* line 88, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-charmander, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
+  background-image: url('/img/sprites/sprite_1-s37a1900438.png');
+  background-repeat: no-repeat;
+}
 
-1: @import "sprites";
-2: @import "header";
-3: @import "general";
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-charmander {
+  background-position: 0 -1079px;
+  height: 828px;
+  width: 878px;
+}
 
-Backtrace:
-C:/Users/Cristian/Documents/Universidad/Noveno Semestre/DesarrolloWebAvanzado/dwa_talleres_CristianToro_2018/2_Pokedex/Pokedex/sass/main.scss:1
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby24-x64/lib/ruby/gems/2.4.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: It's not clear which file to import for '@import \"sprites\"'.\A        Candidates:\A          _sprites.scss\A          sprites.scss\A        Please delete or rename all but one of these files.\A         on line 1 of C:/Users/Cristian/Documents/Universidad/Noveno Semestre/DesarrolloWebAvanzado/dwa_talleres_CristianToro_2018/2_Pokedex/Pokedex/sass/main.scss\A \A 1: @import \"sprites\";\A 2: @import \"header\";\A 3: @import \"general\";"; }
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-flareon {
+  background-position: 0 -2802px;
+  height: 930px;
+  width: 858px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-growlithe {
+  background-position: -393px 0;
+  height: 599px;
+  width: 433px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-ninetales {
+  background-position: 0 -599px;
+  height: 480px;
+  width: 510px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-pokebola, .imagePokebola {
+  background-position: 0 -1907px;
+  height: 895px;
+  width: 892px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-rapidash {
+  background-position: 0 0;
+  height: 369px;
+  width: 393px;
+}
+
+/* line 1, ../sass/_header.scss */
+header.headerCont {
+  background: #f7370d;
+  height: 40px;
+  width: 100%;
+  padding: 2px;
+  display: block;
+  color: white;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 31px;
+  border-radius: 15px;
+}
+
+/* line 14, ../sass/_header.scss */
+.imagePokebola {
+  background: black;
+}
+
+/* line 1, ../sass/_general.scss */
+body.mainCont {
+  background: #D1D78D;
+}
+
+/* line 5, ../sass/_general.scss */
+.titleCont {
+  display: inline-block;
+  margin: 56px auto;
+  height: 47px;
+  width: 47%;
+  background: #EED74D;
+  border-radius: 9px;
+  color: black;
+  text-align: center;
+  font-size: 37px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+/* line 18, ../sass/_general.scss */
+ul {
+  list-style: none;
+}
+
+/* line 22, ../sass/_general.scss */
+.dataCont {
+  background: #2885A5;
+  width: 49%;
+  border-radius: 42px;
+  display: inline-block;
+  height: 297px;
+  margin: 0 0 -271px 15px;
+}
+
+/* line 1, ../sass/_footer.scss */
+footer.footerCont {
+  width: 100%;
+  height: 115px;
+  background: #8E68BE;
+  bottom: 0;
+  position: fixed;
+  left: 0;
+}

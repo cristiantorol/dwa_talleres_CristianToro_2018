@@ -3,10 +3,28 @@ body.mainCont{
 }
 
 .titleCont{
-    display: block;
+    display: inline-block;
     margin: 56px auto;
     height: 47px;
     width: 47%;
     background: #EED74D;
     border-radius: 9px;
+    color: black;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+ul{
+    list-style: none
+}
+
+.dataCont{
+    background: #2885A5;
+    width: 49%;
+    border-radius: 42px;
+    display: inline-block;
+    height: 297px;
+    margin: 0 0 -271px 15px;
+
 }
