@@ -1,6 +1,6 @@
-/* line 88, sprites/sprite_1/*.png */
-.sprite_1-sprite, .sprite_1-charmander, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .imgNinetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
-  background-image: url('../img/sprites/sprite_1-s47b1389ebb.png');
+/* line 96, sprites/sprite_1/*.png */
+.sprite_1-sprite, .sprite_1-charmander, .sprite_1-fire, .imgFire, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .imgNinetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
+  background-image: url('../img/sprites/sprite_1-s91653c800a.png');
   background-repeat: no-repeat;
 }
 
@@ -12,8 +12,15 @@
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-fire, .imgFire {
+  background-position: -30px -75px;
+  height: 45px;
+  width: 45px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-flareon {
-  background-position: 0 -75px;
+  background-position: -225px -75px;
   height: 75px;
   width: 75px;
 }
@@ -34,9 +41,9 @@
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokebola, .imagePokebola {
-  background-position: -225px -75px;
-  height: 75px;
-  width: 75px;
+  background-position: 0 -75px;
+  height: 30px;
+  width: 30px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
@@ -48,26 +55,30 @@
 
 /* line 1, ../sass/_header.scss */
 header.headerCont {
-  background: #f7370d;
+  background: #F2F2F2;
+  border: 1px solid;
+  border-bottom: red;
+  border-style: outset;
+  -webkit-text-stroke: 0.8px #0059A6;
   height: 40px;
   width: 100%;
   padding: 2px;
   display: block;
-  color: white;
+  color: #FACB00;
   font-family: 'Righteous', cursive;
   text-align: center;
   font-size: 31px;
   border-radius: 15px;
 }
 
-/* line 14, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 .imagePokebola {
-  background: black;
+  display: inline-block;
 }
 
 /* line 1, ../sass/_general.scss */
-body.mainCont {
-  background: #D1D78D;
+main.mainCont {
+  background: white;
 }
 
 /* line 5, ../sass/_general.scss */
@@ -76,7 +87,6 @@ body.mainCont {
   margin: 12px auto;
   height: 47px;
   width: 99%;
-  background: #EED74D;
   border-radius: 9px;
   color: black;
   text-align: center;
@@ -85,9 +95,9 @@ body.mainCont {
   position: relative;
 }
 
-/* line 19, ../sass/_general.scss */
+/* line 18, ../sass/_general.scss */
 .dataCont {
-  background: #2885A5;
+  background: #541B8A;
   position: relative;
   width: 100%;
   border-radius: 42px;
@@ -97,16 +107,16 @@ body.mainCont {
   text-align: center;
 }
 
-/* line 31, ../sass/_general.scss */
+/* line 30, ../sass/_general.scss */
 .contentDiv {
   padding: 20px;
   margin-right: 50px;
 }
-/* line 34, ../sass/_general.scss */
+/* line 33, ../sass/_general.scss */
 .contentDiv ul {
   list-style: none;
 }
-/* line 36, ../sass/_general.scss */
+/* line 35, ../sass/_general.scss */
 .contentDiv ul li {
   display: inline-block;
   position: relative;
@@ -114,21 +124,26 @@ body.mainCont {
   height: 217px;
 }
 
-/* line 45, ../sass/_general.scss */
-#pokemonData {
+/* line 44, ../sass/_general.scss */
+#dataName {
   height: 10px;
 }
 
-/* line 49, ../sass/_general.scss */
+/* line 48, ../sass/_general.scss */
 .imgNinetales {
   margin-left: 23%;
+}
+
+/* line 53, ../sass/_general.scss */
+.imgFire {
+  display: inline-block;
 }
 
 /* line 1, ../sass/_footer.scss */
 footer.footerCont {
   width: 100%;
   height: 115px;
-  background: #8E68BE;
+  background: #F08604;
   bottom: 0;
   position: fixed;
   left: 0;
@@ -142,10 +157,12 @@ footer.footerCont ul {
 }
 /* line 13, ../sass/_footer.scss */
 footer.footerCont ul li {
+  border: 3px solid black;
+  vertical-align: top;
   height: 80px;
   width: 80px;
   border-radius: 10px;
-  background: blue;
+  background: #FACB00;
   display: inline-block;
   margin: 5px;
   margin-bottom: -30px;
@@ -153,16 +170,16 @@ footer.footerCont ul li {
 /* line 14, ../sass/_footer.scss */
 footer.footerCont ul li:hover {
   cursor: pointer;
-  background: green;
+  background: #D72C19;
 }
 
-/*#otherLI{
-    &:hover{
-        cursor: pointer;
-        background: green;
-    }
-    color:white;
-    font-size: 40px;
-    background: brown;
-
-}*/
+/* line 32, ../sass/_footer.scss */
+#otherTxt {
+  font-family: 'Archivo Narrow', sans-serif;
+  color: white;
+  background: transparent;
+  height: 12px;
+  border: 0px;
+  font-size: 23px;
+  margin-top: 30px;
+}
