@@ -4,39 +4,49 @@ body.mainCont{
 
 .titleCont{
     display: inline-block;
-    margin: 56px auto;
+    margin: 12px auto;
     height: 47px;
-    width: 47%;
+    width: 99%;
     background: #EED74D;
     border-radius: 9px;
     color: black;
     text-align: center;
     font-size: 37px;
     font-family: 'Archivo Narrow', sans-serif;
-}
-
-ul{
-    list-style: none;
-    li{
-        display: inline-block;
-    }
+    position: relative;
 }
 
 .dataCont{
     background: #2885A5;
-    width: 49%;
+    position: relative;
+    width: 100%;
     border-radius: 42px;
     display: inline-block;
-    height: 297px;
-    margin: 0 0 -271px 15px;
-    ul{
-        color:white;
-        font-size: 20px;
-        display: inline-block;
-        li{
-            margin: 10px;
-            display: inline-block;
-        }
-    }
+    height: 188px;
+    color: white;
+    text-align: center;
 
+}
+
+.contentDiv{
+    padding: 20px;
+    margin-right: 50px;
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            position: relative;
+            width: 49%;
+            height: 217px;
+        }   
+    }
+}
+
+#pokemonData{
+        height: 10px;
+}
+
+.imgNinetales{
+    @extend .sprite_1-ninetales;
+    margin-left: 23%;
 }

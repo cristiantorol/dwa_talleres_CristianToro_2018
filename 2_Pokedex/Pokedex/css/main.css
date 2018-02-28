@@ -1,47 +1,47 @@
 /* line 88, sprites/sprite_1/*.png */
-.sprite_1-sprite, .sprite_1-charmander, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
-  background-image: url('../img/sprites/sprite_1-sa26cffb9ab.png');
+.sprite_1-sprite, .sprite_1-charmander, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .imgNinetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
+  background-image: url('../img/sprites/sprite_1-s47b1389ebb.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-charmander {
-  background-position: -300px 0;
-  height: 75px;
-  width: 75px;
-}
-
-/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite_1-flareon {
   background-position: 0 0;
   height: 75px;
   width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite_1-growlithe {
-  background-position: -75px 0;
+.sprite_1-flareon {
+  background-position: 0 -75px;
   height: 75px;
   width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite_1-ninetales {
-  background-position: 0 -75px;
-  height: 480px;
-  width: 510px;
+.sprite_1-growlithe {
+  background-position: -75px -75px;
+  height: 75px;
+  width: 75px;
+}
+
+/* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite_1-ninetales, .imgNinetales {
+  background-position: 0 -150px;
+  height: 310px;
+  width: 310px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-pokebola, .imagePokebola {
-  background-position: -225px 0;
+  background-position: -225px -75px;
   height: 75px;
   width: 75px;
 }
 
 /* line 84, ../../../../../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite_1-rapidash {
-  background-position: -150px 0;
+  background-position: -150px -75px;
   height: 75px;
   width: 75px;
 }
@@ -73,45 +73,55 @@ body.mainCont {
 /* line 5, ../sass/_general.scss */
 .titleCont {
   display: inline-block;
-  margin: 56px auto;
+  margin: 12px auto;
   height: 47px;
-  width: 47%;
+  width: 99%;
   background: #EED74D;
   border-radius: 9px;
   color: black;
   text-align: center;
   font-size: 37px;
   font-family: 'Archivo Narrow', sans-serif;
+  position: relative;
 }
 
-/* line 18, ../sass/_general.scss */
-ul {
-  list-style: none;
-}
-/* line 20, ../sass/_general.scss */
-ul li {
-  display: inline-block;
-}
-
-/* line 25, ../sass/_general.scss */
+/* line 19, ../sass/_general.scss */
 .dataCont {
   background: #2885A5;
-  width: 49%;
+  position: relative;
+  width: 100%;
   border-radius: 42px;
   display: inline-block;
-  height: 297px;
-  margin: 0 0 -271px 15px;
-}
-/* line 32, ../sass/_general.scss */
-.dataCont ul {
+  height: 188px;
   color: white;
-  font-size: 20px;
-  display: inline-block;
+  text-align: center;
+}
+
+/* line 31, ../sass/_general.scss */
+.contentDiv {
+  padding: 20px;
+  margin-right: 50px;
+}
+/* line 34, ../sass/_general.scss */
+.contentDiv ul {
+  list-style: none;
 }
 /* line 36, ../sass/_general.scss */
-.dataCont ul li {
-  margin: 10px;
+.contentDiv ul li {
   display: inline-block;
+  position: relative;
+  width: 49%;
+  height: 217px;
+}
+
+/* line 45, ../sass/_general.scss */
+#pokemonData {
+  height: 10px;
+}
+
+/* line 49, ../sass/_general.scss */
+.imgNinetales {
+  margin-left: 23%;
 }
 
 /* line 1, ../sass/_footer.scss */
