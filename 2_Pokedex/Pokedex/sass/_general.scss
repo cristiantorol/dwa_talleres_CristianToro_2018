@@ -16,12 +16,13 @@ main.mainCont{
 }
 
 .dataCont{
+    margin-top: 101px;
     background: #541B8A;
     position: relative;
     width: 100%;
     border-radius: 42px;
     display: inline-block;
-    height: 188px;
+    height: 200px;
     color: white;
     text-align: center;
 
@@ -33,6 +34,7 @@ main.mainCont{
     ul{
         list-style: none;
         li{
+            vertical-align: top;
             display: inline-block;
             position: relative;
             width: 49%;
@@ -41,8 +43,21 @@ main.mainCont{
     }
 }
 
+.dataTxt{
+    display: block; 
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 10px;
+}
+
 #dataName{
-        height: 10px;
+    font-family: 'Raleway', sans-serif;
+    height: 20px;
+    margin-bottom: 34px;
+}
+
+
+#contentList{
+    padding: 24px;
 }
 
 .imgNinetales{

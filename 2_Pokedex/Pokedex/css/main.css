@@ -97,44 +97,60 @@ main.mainCont {
 
 /* line 18, ../sass/_general.scss */
 .dataCont {
+  margin-top: 101px;
   background: #541B8A;
   position: relative;
   width: 100%;
   border-radius: 42px;
   display: inline-block;
-  height: 188px;
+  height: 200px;
   color: white;
   text-align: center;
 }
 
-/* line 30, ../sass/_general.scss */
+/* line 31, ../sass/_general.scss */
 .contentDiv {
   padding: 20px;
   margin-right: 50px;
 }
-/* line 33, ../sass/_general.scss */
+/* line 34, ../sass/_general.scss */
 .contentDiv ul {
   list-style: none;
 }
-/* line 35, ../sass/_general.scss */
+/* line 36, ../sass/_general.scss */
 .contentDiv ul li {
+  vertical-align: top;
   display: inline-block;
   position: relative;
   width: 49%;
   height: 217px;
 }
 
-/* line 44, ../sass/_general.scss */
-#dataName {
+/* line 46, ../sass/_general.scss */
+.dataTxt {
+  display: block;
+  font-family: 'Open Sans Condensed', sans-serif;
   height: 10px;
 }
 
-/* line 48, ../sass/_general.scss */
+/* line 52, ../sass/_general.scss */
+#dataName {
+  font-family: 'Raleway', sans-serif;
+  height: 20px;
+  margin-bottom: 34px;
+}
+
+/* line 59, ../sass/_general.scss */
+#contentList {
+  padding: 24px;
+}
+
+/* line 63, ../sass/_general.scss */
 .imgNinetales {
   margin-left: 23%;
 }
 
-/* line 53, ../sass/_general.scss */
+/* line 68, ../sass/_general.scss */
 .imgFire {
   display: inline-block;
 }
