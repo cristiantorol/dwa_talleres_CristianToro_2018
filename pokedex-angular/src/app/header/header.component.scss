@@ -14,3 +14,16 @@ app-header.headerCont{
     font-size: 31px;    
     border-radius: 15px;   
 }
+
+ 
+.sprite_1-pokebola, .imagePokebola {
+    background-position: 0 -75px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .imagePokebola{
+    @extend .sprite_1-pokebola;
+    display: inline-block;
+}
+  

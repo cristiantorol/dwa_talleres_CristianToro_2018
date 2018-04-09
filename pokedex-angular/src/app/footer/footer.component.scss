@@ -40,6 +40,31 @@ app-footer.footerCont{
     margin-top: 30px
 }
 
+.sprite_1-charmander {
+    background-position: 0 0;
+    height: 75px;
+    width: 75px;
+  }
+  
+  .sprite_1-flareon {
+    background-position: -225px -75px;
+    height: 75px;
+    width: 75px;
+  }
+
+  .sprite_1-growlithe {
+    background-position: -75px -75px;
+    height: 75px;
+    width: 75px;
+  }
+
+  .sprite_1-rapidash {
+    background-position: -150px -75px;
+    height: 75px;
+    width: 75px;
+  }
+  
+
 
 @media screen and (max-width:415px){
     app-footer.footerCont{
@@ -64,4 +89,26 @@ app-footer.footerCont{
         font-size: 18px;
     }
 
+    .sprite_1-charmander {
+        height: 35px;
+        width: 35px;
+      }
+      
+      .sprite_1-flareon {
+        height: 35px;
+        width: 35px;
+      }
+    
+      .sprite_1-growlithe {
+        height: 35px;
+        width: 35px;
+      }
+    
+      .sprite_1-rapidash {
+        height: 35px;
+        width: 35px;
+      }
+      
+
 }
+

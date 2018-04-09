@@ -106,3 +106,25 @@ app-main.mainCont{
     }
 
 }
+
+.sprite_1-ninetales, .imgNinetales {
+    background-position: 0 -150px;
+    height: 310px;
+    width: 310px;
+  }
+
+  .sprite_1-fire, .imgFire {
+    background-position: -30px -75px;
+    height: 45px;
+    width: 45px;
+  }
+
+  .imgNinetales{
+    @extend .sprite_1-ninetales;
+    margin-left: 23%;
+}
+
+.imgFire{
+    @extend .sprite_1-fire;
+    display: inline-block;
+}
