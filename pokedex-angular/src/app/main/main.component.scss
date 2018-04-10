@@ -22,7 +22,7 @@ app-main.mainCont{
     width: 100%;
     border-radius: 42px;
     display: inline-block;
-    height: 300px;
+    height: 322px;
     color: white;
     text-align: center;
 
@@ -68,6 +68,48 @@ app-main.mainCont{
     padding: 24px;
 }
 
+.sprite_1-ninetales, .imgNinetales {
+    background-position: 0 -150px;
+    height: 310px;
+    width: 310px;
+  }
+
+.sprite_1-fire, .imgFire {
+    background-position: -30px -75px;
+    height: 45px;
+    width: 45px;
+  }
+
+.imgNinetales{
+    @extend .sprite_1-ninetales;
+    margin-left: 23%;
+}
+
+.imgFire{
+    @extend .sprite_1-fire;
+    display: inline-block;
+}
+
+.puntimgCont{
+    display: block;
+}
+
+.goodPoint{
+    display: inline-block;
+    background-image:url('/assets/good.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.badPoint{
+    display: inline-block;
+    background-image:url('/assets/bad.png');
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
 @media screen and (max-width:415px){
     .contentDiv{
         padding: 0px;
@@ -81,12 +123,13 @@ app-main.mainCont{
         }
     }
     .dataCont{
-        margin-top: 148px;
+        margin-top: 130px;
         height: 240px;
         text-align:left;
     }
     .titleCont{
         font-size: 22px;
+        height: 19px;
     }
 
     .dataTxt{
@@ -105,26 +148,40 @@ app-main.mainCont{
         text-align: center;
     }
 
+    .sprite_1-ninetales{
+        height: 299px;
+        transform: scale(0.4);
+        width: 302px;
+        position: fixed;
+        margin-left: 0;
+        margin-top: -24%;
+        z-index: 1;
+    }
+
+    .sprite_1-fire{
+        height: 65px;
+        -webkit-transform: scale(0.4);
+        transform: scale(0.4);
+        width: 40px;
+        position: fixed;
+        margin-left: -9%;
+        margin-top: -4%;
+    }
+
+    .goodPoint{
+        transform: scale(0.5);
+    }
+    
+    .badPoint{
+        transform: scale(0.5);
+    }
+
+    .puntimgCont{
+        margin-top: -16px;
+    }
+
 }
 
-.sprite_1-ninetales, .imgNinetales {
-    background-position: 0 -150px;
-    height: 310px;
-    width: 310px;
-  }
 
-  .sprite_1-fire, .imgFire {
-    background-position: -30px -75px;
-    height: 45px;
-    width: 45px;
-  }
 
-  .imgNinetales{
-    @extend .sprite_1-ninetales;
-    margin-left: 23%;
-}
-
-.imgFire{
-    @extend .sprite_1-fire;
-    display: inline-block;
-}
+  
