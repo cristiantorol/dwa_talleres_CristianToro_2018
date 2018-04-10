@@ -7,7 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  public score=8;
+
   constructor() { }
+
+  public up(){
+    this.score++;
+  }
+
+  public down(){
+    this.score--;
+  }
 
   ngOnInit() {
   }

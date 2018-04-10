@@ -17,10 +17,10 @@
               <li id="dataName">HEIGHT<span class="dataTxt">1,1m</span></li>
               <li id="dataName">WEIGHT<span class="dataTxt">19,9kg</span></li>
           </ul>
-          <div class="puntajeCont">10
+          <div class="puntajeCont">{{score}}
               <div class="puntimgCont">
-                    <div class="goodPoint"></div>
-                    <div class="badPoint"></div>
+                    <div class="goodPoint" (click)="up()"></div>
+                    <div class="badPoint" (click)="down()"></div>
               </div>
               
           </div>
