@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('pokedex-angular-servicios App', () => {
+describe('pokedex-angular App', () => {
   let page: AppPage;
 
   beforeEach(() => {

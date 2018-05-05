@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/footer/footer.component";
+@import "app/header/header.component";
+@import "app/main/main.component";
+
+.sprite_1-sprite, .sprite_1-charmander, .sprite_1-fire, .imgFire, .sprite_1-flareon, .sprite_1-growlithe, .sprite_1-ninetales, .imgNinetales, .sprite_1-pokebola, .imagePokebola, .sprite_1-rapidash {
+    background-image: url('assets/sprite_1-s91653c800a.png');
+    background-repeat: no-repeat;
+  }
+  
+ 
+  
