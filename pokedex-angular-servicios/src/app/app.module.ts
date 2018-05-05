@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
+import { HomeComponent } from './home/home.component';
+import { PokemonComponent } from './pokemon/pokemon.component';
 
 
 @NgModule({
@@ -13,7 +15,9 @@ import { MainComponent } from './main/main.component';
     AppComponent,
     FooterComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    HomeComponent,
+    PokemonComponent
   ],
   imports: [
     BrowserModule
