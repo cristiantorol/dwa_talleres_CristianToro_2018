@@ -139,22 +139,15 @@
     }
 
     .pokeImg{
-        height: 100%;
-        transform: scale(1.5);
+        height: 109px;
         position: relative;
         margin-left: 32%;
         margin-top: 12%;
         z-index: 1;
     }
 
-    .sprite_1-fire{
-        height: 65px;
-        -webkit-transform: scale(0.4);
-        transform: scale(0.4);
-        width: 40px;
-        position: fixed;
-        margin-left: -9%;
-        margin-top: -4%;
+    .pokeType{
+        height: 20px;
     }
 
     .goodPoint{
