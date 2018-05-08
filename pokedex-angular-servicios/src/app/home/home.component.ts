@@ -29,7 +29,6 @@ export class HomeComponent implements OnInit {
             new PokemonElement(result[item].name,result[item].img,result[item].number,result[item].type,result[item].height,result[item].level,
               result[item].hability,result[item].weight,result[item].likes)
             )
-          console.log(this._pokemon);
         }
       },
       error => {

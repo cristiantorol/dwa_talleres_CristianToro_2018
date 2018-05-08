@@ -16,14 +16,10 @@ app-header.headerCont{
 }
 
  
-.sprite_1-pokebola, .imagePokebola {
+.imagePokebola {
     background-position: 0 -75px;
     height: 30px;
     width: 30px;
   }
 
-  .imagePokebola{
-    @extend .sprite_1-pokebola;
-    display: inline-block;
-}
   

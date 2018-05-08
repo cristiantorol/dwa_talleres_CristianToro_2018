@@ -25,12 +25,8 @@ export class PokemonComponent implements OnInit {
   ngOnInit() {
     this._route.params.forEach((params:Params) => {
       this.parametro = params['ident'];
-      console.log(this.parametro)
     });
-
-    this.data = JSON.parse(localStorage.getItem("pokemon"));  
-    console.log(this.data);  
-
+    this.data = JSON.parse(localStorage.getItem("pokemon"));
   }
 
 }

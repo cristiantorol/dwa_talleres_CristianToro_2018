@@ -1,5 +1,3 @@
-
-
 .titleCont{
     display: inline-block;
     margin: 12px auto;
@@ -24,6 +22,12 @@
     color: white;
     text-align: center;
 
+}
+
+.pokeImg{
+    //transform: scale(3.5);
+    margin-top: 3%;
+    margin-left: 26%;
 }
 
 .puntajeCont{
@@ -61,16 +65,9 @@
     margin-bottom: 34px;
 }
 
-
 #contentList{
     padding: 24px;
 }
-
-.sprite_1-ninetales, .imgNinetales {
-    background-position: 0 -150px;
-    height: 310px;
-    width: 310px;
-  }
 
 .sprite_1-fire, .imgFire {
     background-position: -30px -75px;
