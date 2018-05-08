@@ -78,11 +78,6 @@
     width: 45px;
   }
 
-.imgNinetales{
-    @extend .sprite_1-ninetales;
-    margin-left: 23%;
-}
-
 .imgFire{
     @extend .sprite_1-fire;
     display: inline-block;
@@ -146,13 +141,12 @@
         text-align: center;
     }
 
-    .sprite_1-ninetales{
-        height: 299px;
-        transform: scale(0.4);
-        width: 302px;
-        position: fixed;
-        margin-left: 0;
-        margin-top: -24%;
+    .pokeImg{
+        height: 100%;
+        transform: scale(1.5);
+        position: relative;
+        margin-left: 32%;
+        margin-top: 12%;
         z-index: 1;
     }
 
