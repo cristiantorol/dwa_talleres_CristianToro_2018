@@ -8,7 +8,7 @@ export class PeticionService {
     public url: string;
 
     constructor( private _http:Http ){
-        this.url = "https://api.myjson.com/bins/126ofe";
+        this.url = "https://api.myjson.com/bins/1crc4q";
     }
 
     getInfo() {

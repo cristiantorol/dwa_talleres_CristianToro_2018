@@ -9,7 +9,8 @@
   <ul>
     <li *ngFor="let poke of _pokemon; let i = index" (click)="redirect(i)">
         <!--<div class="pokeImg"></div>-->
-       <span class="pokeName">{{poke.name}}</span>
+      <img src="../../assets/{{poke.img}}"/>
+      <span class="pokeName">{{poke.name}}</span>
        
     </li>
 
@@ -22,4 +23,4 @@
     <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
     <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>-->
   </ul>
-</div>
+</div>  
