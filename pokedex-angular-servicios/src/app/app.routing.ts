@@ -7,9 +7,10 @@ import { PokemonComponent } from './pokemon/pokemon.component';
 
 
 const appRoutes: Routes = [
+        { path:'', component:HomeComponent },
         { path:'home', component:HomeComponent },
-        { path:'pokemon', component:PokemonComponent },
-        { path:'main', component:MainComponent}
+        { path:'pokemon/:ident', component:PokemonComponent },
+        { path:'main', component:MainComponent},
         // { path:'**', component:FrutasComponent }
     ];
     

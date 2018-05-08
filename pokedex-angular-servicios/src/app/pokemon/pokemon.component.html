@@ -1,3 +1,30 @@
-<p>
-  pokemon works!
-</p>
+<div *ngIf="parametro" class="contentDiv" >
+    <ul>
+        <li>
+            <div class="titleCont">
+                <div class="imgFire"></div>
+                {{data[parametro].name}}
+            </div>
+          <div class="imgNinetales"></div>
+        </li>
+        <li>
+            <div class="dataCont">
+            <ul id="contentList">
+                <li id="dataName">NO.<span class="dataTxt">{{data[parametro].number}}</span></li>
+                <li id="dataName">LEVEL<span class="dataTxt">{{data[parametro].level}}</span></li>
+                <li id="dataName">TYPE<span class="dataTxt">{{data[parametro].type}}</span></li>
+                <li id="dataName">HABILITY<span class="dataTxt">{{data[parametro].hability}}</span></li>
+                <li id="dataName">HEIGHT<span class="dataTxt">{{data[parametro].height}}m</span></li>
+                <li id="dataName">WEIGHT<span class="dataTxt">{{data[parametro].weight}}kg</span></li>
+            </ul>
+            <div class="puntajeCont">{{data[parametro].likes}}
+                <div class="puntimgCont">
+                      <div class="goodPoint" (click)="up(parametro)"></div>
+                      <div class="badPoint" (click)="down(parametro)"></div>
+                </div>
+                
+            </div>
+            </div>
+        </li>
+    </ul>
+  </div>

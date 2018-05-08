@@ -15,7 +15,7 @@ export class AppComponent {
   ){}
 
   myEvent(){
-    this._router.navigate(['/main/']);
+    this._router.navigate(['/home/']);
   }
 
 }

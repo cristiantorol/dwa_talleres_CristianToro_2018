@@ -7,13 +7,19 @@
     <span>Pokémon</span>
   </div>
   <ul>
-    <li><div class="sprite_1-flareon"></div></li>
-    <li><div class="sprite_1-charmander"></div></li>
-    <li><div class="sprite_1-growlithe"></div></li>
-    <li><div class="sprite_1-rapidash"></div></li>
-    <li><div class="sprite_1-flareon"></div></li>
-    <li><div class="sprite_1-charmander"></div></li>
-    <li><div class="sprite_1-growlithe"></div></li>
-    <li><div class="sprite_1-rapidash"></div></li>
+    <li *ngFor="let poke of _pokemon; let i = index" (click)="redirect(i)">
+        <!--<div class="pokeImg"></div>-->
+       <span class="pokeName">{{poke.name}}</span>
+       
+    </li>
+
+    <!--<li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>
+    <li><div class="pokeImg"></div><span class="pokeName">NOMBRE</span></li>-->
   </ul>
 </div>
